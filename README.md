@@ -1,8 +1,8 @@
 # Whatever color theme
 
-![JS](https://github.com/usernamehw/vscode-theme-whatever/raw/master/assets/JS.png)
-![CSS](https://github.com/usernamehw/vscode-theme-whatever/raw/master/assets/CSS.png)
-![HTML](https://github.com/usernamehw/vscode-theme-whatever/raw/master/assets/HTML.png)
+![JS](https://github.com/jgwil2/vscode-theme-whatever/raw/master/assets/JS.png)
+![CSS](https://github.com/jgwil2/vscode-theme-whatever/raw/master/assets/CSS.png)
+![HTML](https://github.com/jgwil2/vscode-theme-whatever/raw/master/assets/HTML.png)
 
 ### Recommended settings
 

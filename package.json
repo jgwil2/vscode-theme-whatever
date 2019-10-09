@@ -1,0 +1,38 @@
+{
+	"name": "whatever",
+	"displayName": "Whatever",
+	"description": "Color theme",
+	"version": "0.0.14",
+	"icon": "assets/icon.png",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"vscode",
+		"themes",
+		"whatever"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Whatever",
+				"uiTheme": "vs-dark",
+				"path": "./themes/whatever-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#13171f",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jgwil2/vscode-theme-whatever"
+	},
+	"bugs": {
+		"url": "https://github.com/jgwil2/vscode-theme-whatever/issues"
+	}
+}

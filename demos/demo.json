@@ -1,0 +1,71 @@
+{
+  "created": "2020-05-12T15:10:37Z",
+  "device": {
+    "device_info": {
+      "device_fw": 204,
+      "device_sn": "06-02133",
+      "device_trait": 2,
+      "device_type": 190
+    },
+    "timeseries": [
+      {
+        "configuration": {
+          "sensors": [
+            {
+              "measurements": ["BATTERY", "BATTERY_MV"],
+              "port": 7,
+              "sensor_bonus_value": "Unavailable",
+              "sensor_firmware_ver": "Unavailable",
+              "sensor_number": 133,
+              "sensor_sn": "Unavailable"
+            },
+            {
+              "measurements": ["REFERENCE_KPA", "TEMPC_LOGGER"],
+              "port": 8,
+              "sensor_bonus_value": "Unavailable",
+              "sensor_firmware_ver": "Unavailable",
+              "sensor_number": 134,
+              "sensor_sn": "Unavailable"
+            }
+          ],
+          "valid_since": "2018-08-11T21:45:00Z",
+          "values": [
+            [
+              1534023900,
+              0,
+              19,
+              [
+                {
+                  "description": "Battery Percent",
+                  "error": false,
+                  "units": "%",
+                  "value": 100
+                },
+                {
+                  "description": "Battery Voltage",
+                  "error": false,
+                  "units": " mV",
+                  "value": 7864
+                }
+              ],
+              [
+                {
+                  "description": "Reference Pressure",
+                  "error": false,
+                  "units": " kPa",
+                  "value": 100.62
+                },
+                {
+                  "description": "Logger Temperature",
+                  "error": false,
+                  "units": " \u00b0C",
+                  "value": 28.34
+                }
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

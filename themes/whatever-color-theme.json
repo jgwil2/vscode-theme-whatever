@@ -203,12 +203,17 @@
     "gitDecoration.ignoredResourceForeground": "#6a7fa5"
   },
   "tokenColors": [
-    { "scope": ["invalid"], "settings": { "foreground": "#eb3d54" } },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": { "foreground": "#eb3d54" }
+    },
     {
       "scope": ["meta.template.expression"],
       "settings": { "foreground": "#98a6c1" }
     },
     {
+      "name": "This/self",
       "scope": ["variable.language.this", "variable.language.special.self"],
       "settings": { "fontStyle": "italic" }
     },
@@ -217,10 +222,12 @@
       "settings": { "foreground": "#ecbf63", "fontStyle": "bold" }
     },
     {
+      "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": { "foreground": "#526488" }
     },
     {
+      "name": "Dot",
       "scope": [
         "punctuation.accessor",
         "punctuation.separator.method",
@@ -234,6 +241,7 @@
       "settings": { "foreground": "#dfb55e" }
     },
     {
+      "name": "Tag",
       "scope": ["entity.name.tag"],
       "settings": { "foreground": "#8ab95c", "fontStyle": "bold" }
     },
@@ -251,6 +259,7 @@
       "settings": { "foreground": "#2894cb" }
     },
     {
+      "name": "Markdown - Code block",
       "scope": ["markup.fenced_code.block.markdown meta.embedded.block"],
       "settings": { "foreground": "#98a6c1" }
     },
@@ -294,6 +303,7 @@
     { "scope": ["variable.language"], "settings": { "foreground": "#99cc66" } },
     { "scope": ["storage.modifier"], "settings": { "foreground": "#e9bd62" } },
     {
+      "name": "Class Name",
       "scope": ["entity.name.type.class"],
       "settings": { "foreground": "#f28966" }
     },
@@ -339,8 +349,16 @@
       "settings": { "foreground": "#98a6c1" }
     },
     { "scope": ["keyword"], "settings": { "foreground": "#e9bd62" } },
-    { "scope": ["keyword.control"], "settings": { "foreground": "#d6ad5a" } },
-    { "scope": ["storage.type"], "settings": { "foreground": "#d65c99" } },
+    {
+      "name": "Control keyword",
+      "scope": ["keyword.control"],
+      "settings": { "foreground": "#d6ad5a" }
+    },
+    {
+      "name": "Type",
+      "scope": ["storage.type"],
+      "settings": { "foreground": "#d65c99" }
+    },
     {
       "scope": ["support.type.property-name.json"],
       "settings": { "foreground": "#f26666" }
@@ -385,11 +403,13 @@
       "settings": { "foreground": "#99cc66" }
     },
     {
+      "name": "Function definition",
       "scope": ["entity.name.function"],
       "settings": { "foreground": "#f28966" }
     },
     { "scope": ["support.function"], "settings": { "foreground": "#c6a053" } },
     {
+      "name": "Function call",
       "scope": [
         "meta.function-call entity.name.function",
         "meta.function-call support.function",
@@ -400,6 +420,7 @@
       "settings": { "foreground": "#e66060" }
     },
     {
+      "name": "Escape sequence",
       "scope": "constant.character.escape",
       "settings": { "foreground": "#8ab95c" }
     },
